@@ -287,7 +287,12 @@ const DualTranslator: React.FC = () => {
                 {/* Стоп */}
                 <button
                   onClick={() => {
-                    if (isRecording) toggleRecording();
+                    if (isRecording) {
+                      console.log("Останавливаю запись…");
+                      toggleRecording();
+                    } else {
+                      console.log("Запись уже остановлена.");
+                    }
                   }}
                   className="px-3 py-1 bg-yellow-500/70 hover:bg-yellow-600 rounded-lg text-white text-sm"
                 >
