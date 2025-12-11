@@ -1,4 +1,4 @@
-# 🎤 DashkaVoiceFrance - Real-time Translation Platform
+# 🎤 DashkaVoicePL - Real-time Translation Platform
 
 AI-powered voice translator with manual and auto-detect modes.
 
